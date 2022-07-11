@@ -25,7 +25,7 @@ main {
     background-color: rgb(202, 201, 201);
 }
 
-.bar{
+.bar {
 
     display: inline-block;
 
@@ -40,7 +40,7 @@ main {
     background-color: white;
 }
 
-.bartext  {
+.bartext {
     position: relative;
     display: block;
     text-align: center;
@@ -60,8 +60,13 @@ main {
 }
 
 @keyframes grow-1 {
-    0% { height: 0%; }
-    100% { height: 30%; }
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 30%;
+    }
 }
 
 
@@ -71,9 +76,14 @@ main {
     animation-delay: 1.5s;
 }
 
- @keyframes grow-2 {
-    0% { height: 0%; }
-    100% { height: 40%; }
+@keyframes grow-2 {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 40%;
+    }
 }
 
 .bar-inner-3 {
@@ -83,7 +93,11 @@ main {
 }
 
 @keyframes grow-3 {
-    0% { height: 0%; }
-    100% { height: 80%; }
-}
+    0% {
+        height: 0%;
+    }
 
+    100% {
+        height: 80%;
+    }
+}
